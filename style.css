@@ -33,9 +33,12 @@ header{
     justify-content: space-between;
     list-style: none;
     margin: auto;
+ 
     
 }
-
+.haykakan{
+    margin-left: 20px;
+}
 .menu-link{
     color:rgb(255, 252, 252);
     font-size: 18px;
@@ -58,6 +61,13 @@ header{
     margin-top: 100px;
 }
 
+.mult{
+    margin-left: 20px;
+}
+
+.tun{
+    margin-left: 20px;
+}
 .middle{
     position: absolute;
     top:50%;
@@ -304,3 +314,133 @@ p{
 .yntaniq{
     display: flex;
 }
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  #myInput {
+      
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 20%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+   
+  }
+  
+
+
+  #myUL {
+    list-style-type: none;
+    padding: 0;
+    /* margin: 0; */
+ display: flex;
+
+  }
+  /* .porc{
+    display: flex;
+  } */
+li{
+    width: 200px;
+}
+.cnox{
+    display: flex;
+}
+  
+  #myUL li a {
+    border: 1px solid #ddd;
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #f6f6f6;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block
+    
+  }
+  .spider {
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 200px;
+      height: 300px;
+      border-radius: 7px;
+      background-image: url(https://films.bz/img-medium/uploads/posts/2022-02/1645720961_262418167_4535213393265639_8758314333265073163_n.jpg);
+  }
+  
+  .harry{
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 200px;
+      height: 300px;
+      background-image: url(https://films.bz/img-medium/uploads/posts/2021-01/1609787516_harrymahvan158f41gh58d3gh5s3d0s35h.jpg);
+  }
+  
+  .harrydiv{
+   
+      width: 200px;
+      height: 300px;
+      border-radius: 7px;
+  }
+  li{
+      font-family: sans-serif;
+      font-size: 15px;
+  
+  }
+  
+  .homealone{
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 200px;
+      height: 300px;
+      background-image: url(https://films.bz/img-medium/uploads/posts/2019-12/1576704373_ad98d0a68d40a6d40a68d0ad.jpg);
+  }
+  
+  .homealonediv{
+      width: 200px;
+      height: 300px;
+      border-radius: 7px;
+  }
+  
+  .spiderdiv{
+  
+      width: 200px;
+      height: 300px;
+  }
+  #myUL li a:hover:not(.header) {
+    background-color: #eee;
+  }
+  
+  .karibyandiv{
+      width: 200px;
+      height: 300px;
+      border-radius: 7px;
+  }
+  .karibyan{
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 200px;
+      height: 300px;
+      background-image: url(https://films.bz/img-medium/uploads/posts/2021-01/1609794226_karibyansevcs51h5dh51sd0g5fj35s1g3sg.jpg);
+  
+  }
+  .search{
+      width: 300px;
+      border: solid white;
+  }
+  
+  .titanikdiv{
+      width: 200px;
+      height: 300px;
+      border-radius: 7px;
+  }
+  .titanik{
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 200px;
+      height: 300px;
+      background-image: url(https://films.bz/img-medium/uploads/posts/2019-12/1577437922_af5af0a68f40a6840jh8k40gk403g8k.jpg);
+  }
