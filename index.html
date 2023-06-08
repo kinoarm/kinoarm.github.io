@@ -17,6 +17,7 @@
 <link rel="icon" href="icon_path" type="image/icon type">
  </head>
 <body>   
+    <div class="main">
     <header>
         <div class="brand-logo">
            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUfGE_azgXCQcDjW4QwoXztddELqcqcCn7sM4hUY_RFwKjnB9yyTXrZ7ikS7fEFwq3Z1w&usqp=CAU">    
@@ -152,39 +153,61 @@
     
     </header>
    
-       <h1>  fAVORITE MOVIE</h1>
-   <div class="slidershow middle">
-    <div class="slides">
-        
-        <input type="radio" name="r" id="r1" checked>
-        <input type="radio" name="r" id="r2">
-        <input type="radio" name="r" id="r3">
-        <input type="radio" name="r" id="r4">
-        <div class="slide ">
-            <img src="https://variety.com/wp-content/uploads/2015/02/spider-mannew.jpeg?w=1000&h=563&crop=1">
-        </div>
-        <div class="slide s1">
-            <img src="https://ntvb.tmsimg.com/assets/p32093_v_h10_aa.jpg?w=960&h=540">
-        </div>
-        <div class="slide s2">
-            <img src="https://variety.com/wp-content/uploads/2015/02/spider-mannew.jpeg?w=1000&h=563&crop=1">
-        </div>
-        <div class="slide s3">
-            <img src="https://cdn.forbes.ru/files/750x472/gallery_images/the-avengers.jpg__1562826726__33491.jpg">
-        </div>
-        <div class="slide s4">
-            <img src="https://imgnew.outlookindia.com/uploadimage/library/16_9/16_9_5/Titanic_1676535709.jpg">
-        </div>
-    </div>
-    <div class="navigation">
-        <label for="r1"class="bar"></label>
-        <label for="r2"class="bar"></label>
-        <label for="r3"class="bar"></label>
-        <label for="r4"class="bar"></label>
-    </div>
-   </div>
+       <h1  class="vip">  fAVORITE MOVIE</h1>
+       <div class="slideshow-container">
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <img src="https://www.armkino.am/images/uploads/sonic---film-5ef8f344639f4.jpeg" style="width:100%;  box-shadow: 2px 2px 13px 0px gray;">
+          <div class="text"></div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <img src="https://static.okko.tv/images/v2/10241016?scale=1&quality=80" style="width:100%;  box-shadow: 2px 2px 13px 0px gray;">
+          <div class="text"></div>
+        </div>
+        
+
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <img src="https://www.armkino.am/images/uploads/joker---film-hayeren-5eefac2e45d42.jpg" style="width:100%;  box-shadow: 2px 2px 13px 0px gray;">
+          <div class="text"></div>
+        </div>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+        </div><br>
+    
+    
+    <script>
+        let slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 2000);
+        }
+        </script>
+
+<br><br><br><br><br><br><br><br>
   
   <div class="cont">
 <div class="box">
@@ -1314,6 +1337,7 @@
                         </div>
                 
                     </footer>
+                </div>
 
 </body>
 </html>
